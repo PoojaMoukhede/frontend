@@ -1,0 +1,118 @@
+.navBar {
+    display: flex;
+    padding-left: 100px;
+    border-bottom: 1px solid #006238;
+}
+
+.logoImg {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal normal Palatino;
+    color: #006238;
+}
+
+.camera {
+    margin-left: 1000px;
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.camera:hover {
+    background-color: rgb(239, 238, 238);
+    border-radius: 1%;
+}
+
+.post {
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid black;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+
+}
+
+.name {
+    box-sizing: border-box;
+    display: flex;
+    width: 400px;
+}
+
+.nameAndlocation {
+    padding: 20px;
+}
+
+.nameAndlocation h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nameAndlocation h3:nth-child(2) {
+    font-weight: lighter;
+    font-size: smaller;
+    color: #707070;
+    opacity: 1;
+}
+
+.name .icon {
+    display: inline;
+    margin-left: 260px;
+    width: 20px;
+}
+
+.postImg {
+    height: 200px;
+}
+
+.postImg img {
+    height: 200px;
+    width: 400px;
+}
+
+/* .likeshare img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+} */
+.heart{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.share{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.likeshare div {
+    height: 35px;
+    display: flex;
+}
+
+.likeshare div p {
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.likeshare>p {
+    display: inline;
+    margin-left: 20px;
+    color: #707070;
+    opacity: 1;
+}
+
+.description {
+    padding-left: 20px;
+}
