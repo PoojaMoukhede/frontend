@@ -18,7 +18,14 @@ function PostView() {
         });
     }
     useEffect(() => {
-       
+        axios.get('https://localhost:5000/')
+            .then(function (response) {
+                setState(response.data.reverse());
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }, [])
     return (
         <>
