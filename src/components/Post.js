@@ -21,7 +21,7 @@ function Post() {
         DATA.append('date', new Date().toLocaleDateString())
         DATA.append('likes', parseInt(Math.random() * 10))
 
-        axios.post('https://localhost:5000')
+        axios.post('https://localhost:5000',DATA)
         .then(function (response) {
             console.log(response);
             alert("sucess");
