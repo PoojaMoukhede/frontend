@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Post.css'
-// import axios from 'axios'
+import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 
 function Post() {
@@ -20,6 +20,16 @@ function Post() {
         DATA.append('description', description)
         DATA.append('date', new Date().toLocaleDateString())
         DATA.append('likes', parseInt(Math.random() * 10))
+
+        axios.post('https://localhost:5000')
+        .then(function (response) {
+            console.log(response);
+            alert("sucess");
+            navigate("/Postview")
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 
     }
     return (

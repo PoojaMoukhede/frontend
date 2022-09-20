@@ -38,7 +38,7 @@ function PostView() {
                 let base64String = btoa(
                     String.fromCharCode(...new Uint8Array((user.PostImage.data.data)))
                 );
-                console.log(base64String);
+                // console.log(base64String);
                 return (
                     <>
                         <div className='post'>
