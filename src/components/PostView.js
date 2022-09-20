@@ -47,7 +47,7 @@ function PostView() {
                                     <h3>{user.name}</h3>
                                     <h3>{user.location}</h3>
                                 </div>
-                                <img classname='icon'src="images/more_icon.svg" alt="" />
+                                <img classname='icon'src="images/nature.jpeg" alt="" />
                             </div>
                             <div className="postImg">
                                 <img src={`data:image/png;base64,${base64String}`} alt="PostedImage" />
